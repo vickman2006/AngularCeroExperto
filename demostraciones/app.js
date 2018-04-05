@@ -12,12 +12,12 @@ saludar(wolverine)
 
 */
 
-function saludar(nombre:string){
-  console.log("Hola "+ nombre)
+function saludar(nombre: string) {
+    console.log("Hola " + nombre)
 }
 
 var wolverine = {
-  nombre:"Logan"
+    nombre: "Logan"
 };
 
 saludar(wolverine.nombre)
